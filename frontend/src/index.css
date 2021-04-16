@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dancing Script", cursive;
+  background: #f4f4f4;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+p {
+  font-family: "Zilla Slab", serif;
+}
+ 
