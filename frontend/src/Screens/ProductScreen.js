@@ -40,7 +40,7 @@ const ProductScreen = ({ match, history }) => {
             </Zoom>
 
             <div className="left__info">
-              <p className="left__name">PlayStation 5</p>
+              <p className="left__name">{product.name}</p>
               <p>Price: ${product.price}</p>
               <p>Description: {product.description}</p>
             </div>
@@ -54,7 +54,7 @@ const ProductScreen = ({ match, history }) => {
               <p>
                 Status:
                 <span>
-                  {product.countInStock > 0 ? "In Stock" : "Out of Stock"}
+                  {product.countInStock > 0 ? "double" : "single"}
                 </span>
               </p>
               <p>
